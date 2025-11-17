@@ -1,6 +1,18 @@
 # YamlEditor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+A web-based YAML editor that allows users to load, edit, and save YAML files. This application provides a user-friendly interface for manipulating YAML data, including adding, editing, and removing key-value pairs, and handling nested objects. It supports loading YAML from local files or URLs and saving modified YAML content.
+
+## Features
+
+- Load YAML from local files or URLs.
+- Edit YAML structure and values.
+- Add new key-value pairs with type selection (string, number, boolean, object).
+- Rename keys.
+- Remove key-value pairs.
+- Save modified YAML content with an `_edited` suffix.
+- Non-modal error display.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 20.3.11.
 
 ## Development server
 
